@@ -3,4 +3,3 @@ Shortcut is the fastest way to be lost, be rational and stop doing incorrect thi
 
 
 Leetcode questions, including python & scala version. 
-

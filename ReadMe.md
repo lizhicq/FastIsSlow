@@ -4,9 +4,7 @@ Shortcut is the fastest way to be lost, be rational and stop doing incorrect thi
 
 Leetcode questions, including python & scala version. 
 
-读孟子，学栋梁之学。
 
+读孟子，学栋梁之学
 
-
-
-
+更新简历发给

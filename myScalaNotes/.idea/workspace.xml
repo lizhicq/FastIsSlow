@@ -2,8 +2,438 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c015055a-37c1-4dd5-b274-5ea14e4a6bd3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__com_typesafe_akka_akka_actor_2_11_2_4_17(1).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__com_typesafe_akka_akka_protobuf_2_11_2_4_17(1).xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__com_typesafe_akka_akka_remote_2_11_2_4_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__com_typesafe_akka_akka_stream_2_11_2_4_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__com_typesafe_config_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__com_typesafe_ssl_config_core_2_11_0_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__io_aeron_aeron_client_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__io_aeron_aeron_driver_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__org_agrona_agrona_0_9_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__org_scala_lang_modules_scala_java8_compat_2_11_0_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/libraries/Maven__org_uncommons_maths_uncommons_maths_1_2_2a.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/Akka0705.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/actor/SayHelloActor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/actors/AActor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/actors/ActorGame.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/actors/BActor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/sparkmasterworker/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/sparkmasterworker/common/MessageProtocol.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/sparkmasterworker/master/SparkMaster.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/sparkmasterworker/worker/SparkWorker.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/yellowchicken/client/CustomerActor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/yellowchicken/common/MessageProtocol.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/src/main/scala/com/atguigu/akka/yellowchicken/server/YellowChickenServer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/Test$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actor/SayHelloActor$$anonfun$receive$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actor/SayHelloActor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actor/SayHelloActorDemo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actor/SayHelloActorDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actors/AActor$$anonfun$receive$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actors/AActor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actors/ActorGame$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actors/ActorGame$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actors/ActorGame$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actors/ActorGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actors/BActor$$anonfun$receive$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/actors/BActor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/HeartBeat$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/HeartBeat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/RegisterWorkerInfo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/RegisterWorkerInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/RegisteredWorkerInfo$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/RegisteredWorkerInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/RemoveTimeOutWorker$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/RemoveTimeOutWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/SendHeartBeat$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/SendHeartBeat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/StartTimeOutWorker$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/StartTimeOutWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/common/WorkerInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/master/SparkMaster$$anonfun$receive$1$$anonfun$applyOrElse$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/master/SparkMaster$$anonfun$receive$1$$anonfun$applyOrElse$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/master/SparkMaster$$anonfun$receive$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/master/SparkMaster$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/master/SparkMaster.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/worker/SparkWorker$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/worker/SparkWorker$$anonfun$receive$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/worker/SparkWorker$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/sparkmasterworker/worker/SparkWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/client/CustomerActor$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/client/CustomerActor$$anonfun$receive$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/client/CustomerActor$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/client/CustomerActor$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/client/CustomerActor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/common/ClientMessage$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/common/ClientMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/common/ServerMessage$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/common/ServerMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/server/YellowChickenServer$$anonfun$receive$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/server/YellowChickenServer$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/server/YellowChickenServer$delayedInit$body.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/Akka0705/target/classes/com/atguigu/akka/yellowchicken/server/YellowChickenServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter01/Comment.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter01/LookSourceCode.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter01/TestScala.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter01/printDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter01/test/TestScala.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter01/vars/VarDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter01/vars/VarDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter01/vars/VarDemo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter02/dataconvert/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter02/dataconvert/Demo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter02/dataconvert/string2basic.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter02/datatype/CharDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter02/datatype/TyepDemo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter02/datatype/TypeDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter02/datatype/TypeDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter02/datatype/UnitNullNothingDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter02/iden/IdenDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter03/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter03/arithoper/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter03/arithoper/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter03/assignoper/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter03/inputcon/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter03/notice/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/homework/Homework01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/ifesle/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/ifesle/Demo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/ifesle/Demo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/ifesle/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/ifesle/Exercise02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/ifesle/Exercise03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/ifesle/Exercise04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/ifesle/Exercise05.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/ifesle/ifelsesDemo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/mutlfor/Exercise.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/mutlfor/Exercise02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/mutlfor/Exercise03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/mybreak/WhileBreak.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/mycontinue/ContinueDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/mydowhile/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/myfor/ForDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/myfor/ForExercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/myfor/ForGuard.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/myfor/ForUntilDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/myfor/ForVar.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/myfor/MultiFor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/myfor/stepfor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/myfor/usefor2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/myfor/yieldFor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter04/mywhile/WhileDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/exercises/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/fun/FunDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/fun/FunYuanli.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/fundetails/DetailParameter05.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/fundetails/Details01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/fundetails/Details02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/fundetails/Details03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/fundetails/Details04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/fundetails/DetailsRecursive.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/fundetails/VarParameters.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/myexception/JavaExceptionDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/myexception/ScalaExceptionDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/myexception/ThrowDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/myexception/ThrowsComment.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/mylazy/LazyDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/recursive/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter05/recursive/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/OOP/CatDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/OOP/Constructor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/OOP/CreateObj.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/OOP/MemState.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/OOP/PropertyDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/constructor/BeanPropertDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/constructor/ConDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/constructor/ConDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/constructor/ConDemo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/constructor/ConDemo04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/constructor/JavaDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/dogcase/DogCaseTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/homework/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/homework/Exercise03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/homework/Exercise04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/homework/Exercise06.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/homework/Exercise08.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/method/MethodDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter06/method/MethodDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/abstractdemo/BankDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/homework/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/homework/Exercise02$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/homework/Exercise02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/homework/Exercise02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/homework/Exercise04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/homework/Exercise05.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/homework/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/homework/com/atguigu/chapter07/homework/Exercise02$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/homework/com/atguigu/chapter07/homework/Exercise02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/homework/com/atguigu/chapter07/homework/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/javapackage/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/javapackage/TestTiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/javapackage/xh/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/javapackage/xm/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/AbstractClassDetail01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/AbstractDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/Extends01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/Extends02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/FiledOverrideDetail.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/JavaBaseConstractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/JavaDaynamicBind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/JavaFiledOverride.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/MethodOverride01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/NoNameDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/ScalaBaseConstrator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/ScalaFieldOverrideDetail02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/ScalaFieldOverrideDetail03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/ScalaFiledOverride.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/ScalaNoNameDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/TypeConvert.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/myextends/TypeConvertCase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/scalapackage/PackageDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/scalapackage/TestPackageObject.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/scalapackage/TestTiger.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/scalapackage/importdetails/TestImport.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/scalapackage/package.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/scalapackage/packageImport.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/scalapackage/packagedemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/scalapackage/xh/Tiger.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/scalapackage/xm/Tiger.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter07/visit/TestVisit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/AccompanyObject.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/ApplyDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/ChildJoinGame.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/TestChildGame.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/extendtrait/ExtendTraitDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/homework/BankAccount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/homework/Exercise02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/homework/Exercise03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/homework/Exercise04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/homework/SingleTonDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/innerclass/JavaInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/innerclass/ScalaInnerClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/mixin/AddTraits.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/mixin/MixInDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/mixin/MixInDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/mixin/MixInPro.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/mixin/MixInSeq.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/mytrait/TraitDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/mytrait/TraitDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/mytrait/TraitDemo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter08/selftype/SelfTypeDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter09/ImplicitClassDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter09/ImplicitDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter09/ImplicitDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter09/ImplicitNotice.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter09/ImplicitVal02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter09/ImplicitValDemo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter09/homework/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/Array22ArrayBuffer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/ArrayBuffer2JavaList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/ArrayBufferDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/ArrayDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/ArrayDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/CollectionDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/JavaCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/JavaHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/JavaHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/ListBufferDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/ListDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/MapDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/MultiplyArray.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/OperatorOverload.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/QueueDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/SetDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/Test02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter10/TupleDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/Exercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/Exercise02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/Exercise03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/FilterDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/FlatMapDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/FlodDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/FoldDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/HighOrderFunDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/HighOrderFunDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/IteratorDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/MapOperateDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/MapOperateDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/OperatorDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/ParDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/ParDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/ReduceDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/ReduceExercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/ScanDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/StreamDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/ViewDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter11/ZipDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchArr.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchExercise01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchExercise02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchForDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchIfDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchList.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchObject.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchObjectDemo2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchTupleDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchTypeDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchTypeDetail.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchVar.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MatchVarDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/MidCase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/casepak/CaseClassDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/casepak/CaseClassDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/casepak/CaseClassDemo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/casepak/SalesDem0.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter12/casepak/TestClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/AbstractControl.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/AbstractControl2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/AnonymouseFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/ClosureDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/CurryDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/CurryDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/FunParameter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/HigherOrderFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/HigherOrderFunction2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/ParameterInfer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/PartialFun03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/PartialFunDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/PartialFunDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter13/closure/Demo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter14/RecursiveDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter14/RecursiveDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter15/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter15/customercrm/app/CustomerCrm.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter15/customercrm/bean/Customer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter15/customercrm/service/CustomerService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter15/customercrm/view/CustomerView.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter16/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter16/akka/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/order/AbsFactory(1).scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/order/BJFactory.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/order/OrderPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/order/PizzaStore(1).scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/order/SalePizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/pizza/BJCheesePizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/pizza/BJPepperPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/pizza/CheesePizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/pizza/GreekPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/pizza/PepperPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/abstractfactory/pizzastore/pizza/Pizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/CoffeeBar.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/Drink.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/mycoffee/Coffee.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/mycoffee/DeCaf.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/mycoffee/Espresso.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/mycoffee/LongBlack.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/mycoffee/ShortBlack.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/mydecorator/Chocolate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/mydecorator/Decorator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/mydecorator/Milk.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/mydecorator/NewMilk.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/decorator/coffeebar/mydecorator/Soy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/dyn/MainTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/dyn/MatchService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/dyn/NonOwnerInvocationHandler.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/dyn/OwnerInvocationHandler.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/dyn/PersonBean.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/dyn/PersonBeanImpl.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/pizzastore/order/BJOrderPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/pizzastore/order/OrderPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/pizzastore/order/PizzaStore.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/pizzastore/order/SalePizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/pizzastore/pizza/BJCheesePizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/pizzastore/pizza/BJPepperPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/pizzastore/pizza/CheesePizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/pizzastore/pizza/GreekPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/pizzastore/pizza/PepperPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/factorymethod/pizzastore/pizza/Pizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/observer/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/observer/localinternetobserver/CurrentConditions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/observer/localinternetobserver/InternetWeather.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/observer/localinternetobserver/WeatherData.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/observer/observepattern/CurrentConditions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/observer/observepattern/InternetWeather.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/observer/observepattern/ObServer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/observer/observepattern/SinaCurrentConditions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/observer/observepattern/Subject.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/observer/observepattern/WeatherDataSt.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/proxy/localcandymachine/CandyMachine.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/proxy/localcandymachine/HasCoin.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/proxy/localcandymachine/Monitor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/proxy/localcandymachine/OnReadyState.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/proxy/localcandymachine/SoldOutState.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/proxy/localcandymachine/SoldState.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/proxy/localcandymachine/State.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/proxy/localcandymachine/TestCanyMachine.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/proxy/localcandymachine/WinnerState.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/client/Monitor.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/client/TestRemoteMachine.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/server/CandyMachine.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/server/CandyMachineRemote.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/server/HasCoin.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/server/OnReadyState.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/server/RemoteMainTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/server/SoldOutState.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/server/SoldState.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/server/State.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/remotecandymachine/server/WinnerState.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/rmi/MyRemote.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/rmi/MyRemoteClient.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/rmi/MyRemoteImpl.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/simplefactory/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/simplefactory/pizzastore/order/OrderPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/simplefactory/pizzastore/order/PizzaStore.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/simplefactory/pizzastore/order/SalePizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/simplefactory/pizzastore/order/SimpleFactory.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/simplefactory/pizzastore/pizza/CheesePizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/simplefactory/pizzastore/pizza/GreekPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/simplefactory/pizzastore/pizza/PepperPizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/simplefactory/pizzastore/pizza/Pizza.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/singleton/TestSingleTon.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter17/singleton/TestSingleTon2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/contextbounds/ContextBoundsDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/covariantcontravariant/Demo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/generic/GenericDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/generic/GenericDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/generic/GenericDemo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/homework/WordCountDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/lowerbounds/LowerBoundsDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/upperbounds/UpperBoundsDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/upperbounds/UpperBoundsDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/viewbounds/MyImplicit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/viewbounds/ViewBoundsDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/viewbounds/ViewBoundsDemo02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/chapter18/viewbounds/ViewBoundsDemo03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter18/generictype/GenericDemo01.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/chapter18/generictype/GenericDemo02.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Demo01.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Demo01.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myScalaCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/myScalaCourse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/Demo01.scala" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +455,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -40,6 +470,68 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Application.BeanPropertDemo">
+    <configuration name="BeanPropertDemo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter06.constructor.BeanPropertDemo" />
+      <module name="myScalaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter06.constructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConDemo01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter06.constructor.ConDemo01" />
+      <module name="myScalaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.chapter06.constructor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="main.scala.Demo01" />
+      <module name="myScalaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.scala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericDemo01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="main.scala.com.chapter18.generictype.GenericDemo01" />
+      <module name="myScalaCourse" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.scala.com.chapter18.generictype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BeanPropertDemo" />
+        <item itemvalue="Application.ConDemo01" />
+        <item itemvalue="Application.GenericDemo01" />
+        <item itemvalue="Application.Demo01" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
@@ -73,5 +565,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

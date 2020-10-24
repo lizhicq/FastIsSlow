@@ -1,5 +1,6 @@
 {
     "files.watcherExclude": {
         "**/target": true
-    }
+    },
+    "python.pythonPath": "C:\\Users\\lizhi\\Anaconda3\\python.exe"
 }

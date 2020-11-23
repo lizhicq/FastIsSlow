@@ -1,8 +1,8 @@
-<!DOCTYPE html>
-<html>
-<body>
+< !DOCTYPE html >
+    <html>
+        <body>
 
-<h2>My First JavaScript</h2>
+            <h2>My First JavaScript</h2>
 
-</body>
-</html>
+        </body>
+    </html>

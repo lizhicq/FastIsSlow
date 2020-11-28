@@ -5,17 +5,24 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "command": "npm start",
-            "name": "Run npm start",
+            "name": "Run hello.js",
+            "type": "node",
             "request": "launch",
-            "type": "node-terminal"
-        },
-        {
-            "name": "Launch Chrome",
-            "request": "launch",
-            "type": "pwa-chrome",
-            "url": "http://localhost:8899/#",
-            "webRoot": "${workspaceFolder}"
+            "program": "${workspaceRoot}/hello.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "externalConsole": false,
+            "sourceMaps": false,
+            "outDir": null
         },
         {
             "name": "Python Run Current File",

@@ -4,9 +4,15 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
-            "name": "Run hello.js",
+            "name": "JavaScript Run File",
+            "type": "node",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+        },
+        {
+            "name": "JavaScript Run Current File",
             "type": "node",
             "request": "launch",
             "program": "${file}",

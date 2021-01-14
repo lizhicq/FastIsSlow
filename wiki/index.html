@@ -246,6 +246,8 @@ Error message and password prompt
 
 <li>$:/status/IsReadOnly</li>
 
+<li>$:/status/UserName</li>
+
 <li>$:/StoryList</li>
 
 <li>$:/temp/info-plugin</li>
@@ -255,6 +257,10 @@ Error message and password prompt
 <li>$:/themes/tiddlywiki/vanilla</li>
 
 <li>$:/themes/tiddlywiki/vanilla/options/sidebarlayout</li>
+
+<li>Draft of 'New Tiddler 1' by apikey-5c0e036b10a54877917c8ed50e6bb4df</li>
+
+<li>Draft of 'New Tiddler 2' by apikey-5c0e036b10a54877917c8ed50e6bb4df</li>
 
 <li>Draft of 'New Tiddler'</li>
 
@@ -9945,7 +9951,7 @@ Error message and password prompt
 }</pre>
 </div>
 <div title="$:/plugins/danielo515/tiddlypouch/config/config_database" type="application/json">
-<pre>{&quot;debug&quot;:{&quot;active&quot;:true,&quot;verbose&quot;:false},&quot;selectedDbId&quot;:&quot;MyNotebook&quot;,&quot;useFatTiddlers&quot;:false,&quot;databases&quot;:{&quot;MyNotebook&quot;:{&quot;name&quot;:&quot;MyNotebook&quot;,&quot;remote&quot;:{&quot;name&quot;:&quot;noteself_4c6bac362e8573a76dd5e27168c33ae50365290b&quot;,&quot;username&quot;:&quot;apikey-5c0e036b10a54877917c8ed50e6bb4df&quot;,&quot;url&quot;:&quot;https://847527f2-9dcb-4c36-af1b-b77de746355c-bluemix.cloudant.com&quot;,&quot;password&quot;:&quot;3652f4d2e8bf662a850e1369eb17acedd3d57889&quot;},&quot;version&quot;:&quot;0.27.7&quot;}},&quot;_id&quot;:&quot;configuration&quot;,&quot;_rev&quot;:&quot;9-42a7d3acbafa2700cc88dfae94b18d45&quot;}</pre>
+<pre>{&quot;_id&quot;:&quot;configuration&quot;,&quot;debug&quot;:{&quot;active&quot;:true,&quot;verbose&quot;:false},&quot;selectedDbId&quot;:&quot;MyNotebook&quot;,&quot;useFatTiddlers&quot;:false,&quot;databases&quot;:{&quot;MyNotebook&quot;:{&quot;name&quot;:&quot;MyNotebook&quot;,&quot;remote&quot;:{&quot;name&quot;:&quot;noteself_4c6bac362e8573a76dd5e27168c33ae50365290b&quot;,&quot;username&quot;:&quot;apikey-5c0e036b10a54877917c8ed50e6bb4df&quot;,&quot;url&quot;:&quot;https://847527f2-9dcb-4c36-af1b-b77de746355c-bluemix.cloudant.com&quot;,&quot;password&quot;:&quot;3652f4d2e8bf662a850e1369eb17acedd3d57889&quot;},&quot;version&quot;:&quot;0.27.7&quot;}},&quot;_rev&quot;:&quot;9-42a7d3acbafa2700cc88dfae94b18d45&quot;}</pre>
 </div>
 <div list="MyNotebook" title="$:/plugins/danielo515/tiddlypouch/config/database_names">
 <pre>{{!!list}}</pre>
@@ -10225,15 +10231,14 @@ Error message and password prompt
 <div created="20210114051517034" modified="20210114051517034" title="$:/state/ns/waiting-pin">
 <pre>yes</pre>
 </div>
-<div created="20210114051831224" modified="20210114052526067" title="$:/state/tab-1749438307">
+<div created="20210114051831224" creator="apikey-5c0e036b10a54877917c8ed50e6bb4df" modified="20210114061339822" modifier="apikey-5c0e036b10a54877917c8ed50e6bb4df" title="$:/state/tab-1749438307">
 <pre>$:/core/ui/ControlPanel/Saving</pre>
 </div>
-<div created="20210114052202366" modified="20210114052559058" title="$:/state/tab-2065006209">
-<pre>$:/core/ui/ControlPanel/Saving/General</pre>
+<div created="20210114052202366" creator="apikey-5c0e036b10a54877917c8ed50e6bb4df" modified="20210114061343579" modifier="apikey-5c0e036b10a54877917c8ed50e6bb4df" title="$:/state/tab-2065006209">
+<pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
 <div title="$:/state/tiddlypouch/sync/Log" type="text/plain">
 <pre>
-
 ===SYNC ACTIVE===
 replicate resumed
 ===SYNC Change==={
@@ -10268,6 +10273,13 @@ replicate resumed
         &quot;status&quot;: &quot;aborting&quot;,
         &quot;end_time&quot;: &quot;2021-01-14T05:17:35.205Z&quot;
     }
+}
+===SYNC Error starting==={
+    &quot;error&quot;: &quot;forbidden&quot;,
+    &quot;reason&quot;: &quot;_reader access is required for this request&quot;,
+    &quot;status&quot;: 403,
+    &quot;name&quot;: &quot;forbidden&quot;,
+    &quot;message&quot;: &quot;_reader access is required for this request&quot;
 }</pre>
 </div>
 <div created="20210114051543363" modified="20210114051735206" title="$:/state/tiddlypouch/sync/status">
@@ -10280,12 +10292,15 @@ replicate resumed
 <pre>no</pre>
 </div>
 <div title="$:/status/IsLoggedIn">
-<pre>no</pre>
+<pre>yes</pre>
 </div>
 <div title="$:/status/IsReadOnly">
 <pre>no</pre>
 </div>
-<div created="20210114051831225" list="$:/ControlPanel TiddlyWiki [[Test 1]] GettingStarted" modified="20210114052451242" title="$:/StoryList">
+<div title="$:/status/UserName">
+<pre>apikey-5c0e036b10a54877917c8ed50e6bb4df</pre>
+</div>
+<div created="20210114061330047" creator="apikey-5c0e036b10a54877917c8ed50e6bb4df" list="$:/ControlPanel [[Draft of 'New Tiddler 2' by apikey-5c0e036b10a54877917c8ed50e6bb4df]] [[Draft of 'New Tiddler 1' by apikey-5c0e036b10a54877917c8ed50e6bb4df]] GettingStarted" modified="20210114061330047" modifier="apikey-5c0e036b10a54877917c8ed50e6bb4df" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10301,15 +10316,15 @@ replicate resumed
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;https://noteself.org/online/&quot;
+            &quot;text&quot;: &quot;https://lizhicq.github.io/FastIsSlow/wiki/&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
-            &quot;text&quot;: &quot;noteself.org&quot;
+            &quot;text&quot;: &quot;lizhicq.github.io&quot;
         },
         &quot;$:/info/url/hostname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/hostname&quot;,
-            &quot;text&quot;: &quot;noteself.org&quot;
+            &quot;text&quot;: &quot;lizhicq.github.io&quot;
         },
         &quot;$:/info/url/protocol&quot;: {
             &quot;title&quot;: &quot;$:/info/url/protocol&quot;,
@@ -10321,7 +10336,7 @@ replicate resumed
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/online/&quot;
+            &quot;text&quot;: &quot;/FastIsSlow/wiki/&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -10329,7 +10344,7 @@ replicate resumed
         },
         &quot;$:/info/url/origin&quot;: {
             &quot;title&quot;: &quot;$:/info/url/origin&quot;,
-            &quot;text&quot;: &quot;https://noteself.org&quot;
+            &quot;text&quot;: &quot;https://lizhicq.github.io&quot;
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
@@ -10457,6 +10472,12 @@ replicate resumed
 </div>
 <div title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
 <pre>fluid-fixed</pre>
+</div>
+<div created="20210114061328805" creator="apikey-5c0e036b10a54877917c8ed50e6bb4df" draft.of="New Tiddler 1" draft.title="New Tiddler 1" modified="20210114061328805" modifier="apikey-5c0e036b10a54877917c8ed50e6bb4df" tags="" title="Draft of 'New Tiddler 1' by apikey-5c0e036b10a54877917c8ed50e6bb4df">
+<pre></pre>
+</div>
+<div created="20210114061329056" creator="apikey-5c0e036b10a54877917c8ed50e6bb4df" draft.of="New Tiddler 2" draft.title="New Tiddler 2" modified="20210114061329056" modifier="apikey-5c0e036b10a54877917c8ed50e6bb4df" tags="" title="Draft of 'New Tiddler 2' by apikey-5c0e036b10a54877917c8ed50e6bb4df">
+<pre></pre>
 </div>
 <div created="20210113190542772" draft.of="New Tiddler" draft.title="Week 03 " modified="20210113223723417" revision="15-f9e78d91c63d3cc3607a898e56b3ffdd" tags="" title="Draft of 'New Tiddler'" type="text/vnd.tiddlywiki">
 <pre>* Rise, wash &amp; resolution of the day

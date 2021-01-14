@@ -8,3 +8,5 @@ $git merge feature
 #feature rebase onto master
 $git checkout feature
 $git reabse master
+$#resolve conflicts
+$git add . # reslove 

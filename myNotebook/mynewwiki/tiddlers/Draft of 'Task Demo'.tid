@@ -1,0 +1,27 @@
+created: 20210114043430451
+draft.of: Task Demo
+draft.title: Task Demo
+modified: 20210114043914067
+tags: task
+title: Draft of 'Task Demo'
+type: text/vnd.tiddlywiki
+
+
+
+<<.tip """There is [[an enhanced version of this demo|TaskManagementExample (Draggable)]] that adds the ability to drag and drop the tasks to re-order them.""">>
+
+! Outstanding tasks
+
+<$list filter="[!has[draft.of]tag[task]!tag[done]sort[created]]">
+
+<$checkbox tag="done"> <$link/></$checkbox>
+
+</$list>
+
+! Completed tasks
+
+<$list filter="[!has[draft.of]tag[task]tag[done]sort[created]]">
+
+<$checkbox tag="done"> ~~<$link/>~~</$checkbox>
+
+</$list>

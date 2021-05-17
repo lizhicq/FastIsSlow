@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel"> /*此处一定要写babel */
+            ReactDOM.render(
+        <h1>Hello, world!</h1>,
+        document.getElementById('root')
+      );
+      class Weather extends React.Component{
+        constructor(props){
+          super(props)
+          //init 
+          this.state = {isHot:false}
+          this.changeWeather = this.changeWeather.bind(this)
+        }
+        render(){
+          //read state
+          const {isHot} = false
+          return <h1>今天天气很{isHot ? '炎热' : '凉爽'}</h1>
+        }
+        changeWeather(){
+          console.log(this)
+        }
+      }
+
+      //2. Render element to page;
+      ReactDOM.render(<Weather/>, document.getElementById('test'))
+
+
+    </script>
+  </body>
+</html>

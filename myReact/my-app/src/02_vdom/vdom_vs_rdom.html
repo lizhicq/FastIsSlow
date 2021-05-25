@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello React</title>
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="test"></div>
+    <div id="demo"></div>
+    <script type="text/babel">
+    const VDOM = (
+        <h1 id="title">
+        <span>Hello test</span>
+        </h1>
+    )
+    ReactDOM.render(VDOM, document.getElementById('test'));
+    console.log('vdom', VDOM);
+    console.log(typeof VDOM);
+    console.log(VDOM instanceof Object);
+
+    const TDOM = document.getElementById('demo');
+    console.log(TDOM);
+    // vdom本质是object类型
+    // tdom比较「重」，vdom是react内部在用，无需tdom上那么多的属性;
+    //debugger;
+    </script>
+  </body>
+</html>

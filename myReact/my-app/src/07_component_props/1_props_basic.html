@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>props basic</title>
+</head>
+<body>
+	<!-- 准备好一个“容器” -->
+	<div id="test1"></div>
+	<div id="test2"></div>
+	<div id="test3"></div>
+	
+	<!-- 引入react核心库 -->
+	<script type="text/javascript" src="../js/react.development.js"></script>
+	<!-- 引入react-dom，用于支持react操作DOM -->
+	<script type="text/javascript" src="../js/react-dom.development.js"></script>
+	<!-- 引入babel，用于将jsx转为js -->
+	<script type="text/javascript" src="../js/babel.min.js"></script>
+
+	<script type="text/babel" >
+	// init component
+	class Person extends React.Component{
+		render(){
+			//console.log(this);
+			const {name,age,sex} = this.props
+			return (
+				<ul>
+					<li>姓名:{name}</li>
+					<li>性别:{sex}</li>
+					<li>年龄:{age+1}</li>
+				</ul>
+			)
+		}
+	}
+	//Render component to page;
+	ReactDOM.render(<Person name="jerry" age={19} sex="male"/>, document.getElementById('test1'))
+	ReactDOM.render(<Person name="nick" age={30} sex="female"/>, document.getElementById('test2'))
+
+    </script>
+    
+</body>
+</html>

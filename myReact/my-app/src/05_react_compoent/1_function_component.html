@@ -16,7 +16,16 @@
 	<script type="text/javascript" src="../js/babel.min.js"></script>
 
 	<script type="text/babel" >
-  </script>
+    //1 create functional component
+    function MyComponent(){
+        console.log(this); // this is undefined, babel is strict mode
+        return <h2>I am  function compoent(suit for simple compoent def)</h2>
+    }
+
+    //2 Render functional component
+    ReactDOM.render(<MyComponent/>, document.getElementById('test'))
+    
+    </script>
     
 </body>
 </html>

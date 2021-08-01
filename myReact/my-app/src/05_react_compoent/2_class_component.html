@@ -16,7 +16,19 @@
 	<script type="text/javascript" src="../js/babel.min.js"></script>
 
 	<script type="text/babel" >
-  </script>
+	// 1 create class component 
+	class MyComponent extends React.Component{
+		render(){
+			//render是放在哪里的？—— MyComponent的原型对象上，供实例使用。
+			//render中的this是谁？—— MyComponent的实例对象 <=> MyComponent组件实例对象。
+			console.log('render this:', this);
+			return <h2>I am class compoent</h2>
+		}
+	}
+
+	// 2 Render to page
+	ReactDOM.render(<MyComponent/>, document.getElementById('test'))
+    </script>
     
 </body>
 </html>

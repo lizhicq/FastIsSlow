@@ -16,7 +16,7 @@
 	<script type="text/javascript" src="../js/babel.min.js"></script>
 
 	<script type="text/babel" >
-    /* 
+		/* 
 			一定注意区分：【js语句(代码)】与【js表达式】
 					1.表达式：一个表达式会产生一个值，可以放在任何一个需要值的地方
 								下面这些都是表达式：
@@ -32,21 +32,23 @@
 										(3).switch(){case:xxxx}
 		
 	 */
-    const data = ['Angular', 'React', 'Vue']
-    const VDOM = (
-        <div>
-            <h1>front end js framework</h1>
-            <ul>
-                {data.map((item, index) => {
-                    return <li key={index}>{item}</li>
-                })
-            }
-            </ul>
-        </div>
-    )
-    
-    ReactDOM.render(VDOM,document.getElementById('test'))
-
-    </script>
+		//模拟一些数据
+		const data = ['Angular','React','Vue']
+		//1.创建虚拟DOM
+		const VDOM = (
+			<div>
+				<h1>前端js框架列表</h1>
+				<ul>
+					{
+						data.map((item,index)=>{
+							return <li key={index}>{item}</li>
+						})
+					}
+				</ul>
+			</div>
+		)
+		//2.渲染虚拟DOM到页面
+		ReactDOM.render(VDOM,document.getElementById('test'))
+	</script>
 </body>
 </html>

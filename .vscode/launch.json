@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "myJavaNotes.Test",
+            "projectName": "FastIsSlow_f5e82669"
+        },
+        {
             "name": "Launch Chrome",
             "request": "launch",
             "type": "pwa-chrome",
@@ -23,7 +30,7 @@
             "type": "node",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal",
+            "console": "integratedTerminal"
         },
         {
             "name": "JavaScript Run Current File",
@@ -42,7 +49,7 @@
                 "NODE_ENV": "development"
             },
             "console": "integratedTerminal",
-            "sourceMaps": false,
+            "sourceMaps": false
         },
         {
             "name": "Python Run Current File",
@@ -50,6 +57,6 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
-        },
+        }
     ]
 }

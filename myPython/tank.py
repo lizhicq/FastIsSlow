@@ -16,11 +16,12 @@ pygame.display.set_caption("Tank Game")
 class Tank(pygame.sprite.Sprite):
     def __init__(self, x, y) -> None:
         super().__init__()
-        self.image = pygame.image.load("myPython/tank.png")
+        self.original_image = pygame.image.load("myPython/tank.png").convert_alpha()
+        self.image = pygame.transform.scale(self.original_image, (32, 32))
         self.rect = self.image.get_rect()
         self.rect.x = x
         self.rect.y = y
-        self.speed = 5
+        self.speed = 1
         
     def move_left(self):
         self.rect.x -= self.speed
@@ -83,7 +84,8 @@ while running:
 
     # 检测碰撞
     if pygame.sprite.collide_rect(tank, enemy):
-        running = False
+        # running = False
+        enemy.rect.y = 0 # 重置敌人位置
 
     # 绘制背景和所有精灵
     window.fill((0, 0, 0))  # 黑色

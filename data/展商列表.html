@@ -1,0 +1,1185 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta content="yes" name="apple-mobile-web-app-capable">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> -->
+  <title>展商列表</title>
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="renderer" content="webkit" />
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/common.css" />
+<link rel="stylesheet" type="text/css" href="/css/slick.css" />
+<link rel="stylesheet" type="text/css" href="/css/siteCommon.css?v=20200407" />
+
+<!-- js -->
+<script>
+	var frontAppContext = 'https://www.chinajoy.net/chinajoy/';
+	var DHSiteURL = "https://www.chinajoy.net/";
+	var GWSiteURL = "https://www.chinajoy.net/cjgw/";
+	var siteID = "124";
+	var siteURL = "https://www.chinajoy.net/";
+ 	var siteAlias= "";
+	var isPreview = false;
+  	var url = window.location.href;
+  	if(url.indexOf(frontAppContext) === 0){
+	    var path=url.substring(frontAppContext.length);
+	    if(path.indexOf('/preview/')===0||path.indexOf('preview/')===0){
+	      isPreview=true;
+	      siteURL = "https://www.chinajoy.net/chinajoy/preview/cjdh/";
+		}
+	}
+</script>
+
+<script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="/js/slick.min.js"></script>
+<script src="/js/zcms_common.min.js" contextpath="https://www.chinajoy.net/chinajoy/"></script>
+<script src="/js/zcms_frontend.js" contextpath="https://www.chinajoy.net/chinajoy/"></script>
+
+<!--[if lt IE 10]><script src="${prefix('js/respond.src.js')}"></script><![endif]-->
+
+</head>
+
+<body class="wrapper-exhibitors has-sponsor">
+  <div class="wrapper-box">
+    <!--头部-->
+     
+<div class="header" id="headerClass">
+	<div class="header-top">
+		<div class="container">
+			<div class="header-top-inner clearfix">
+				<div class="logo">
+					<a
+						href="https://www.chinajoy.net/">
+						<img src="/images/logo.png" />
+					</a>
+				</div>
+				<img src="/images/icon-menu.png" class="icon-menu-nav" />
+				<!--pc-->
+				<ul class="header-nav">
+					
+						<li><a>关于</a>
+							<div class="sub-nav">
+								
+									
+										<div class="sub-nav-item">
+											<div class="catalog-parent">
+												<a>关于展会</a>
+											</div>
+											
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/gy/gyzh/zhjs/">展会介绍</a>
+														</div>
+													</div>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/gy/gyzh/wjhg/">往届回顾</a>
+														</div>
+													</div>
+											
+										</div>
+										<div class="sub-nav-item">
+											<div class="catalog-parent">
+												<a>关于会议</a>
+											</div>
+											
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/gy/gyhy/hyjs/">会议简介</a>
+														</div>
+													</div>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/gy/gyhy/wjhg/">往届回顾</a>
+														</div>
+													</div>
+											
+										</div>
+								
+							</div></li>
+					
+					
+						<li><a>观展/参会</a>
+							<div class="sub-nav">
+								
+									
+										<div class="sub-nav-item">
+											<div class="catalog-parent">
+												<a>我要参观</a>
+											</div>
+											
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/cgzn/wycg/zhrc/">展会日程</a>
+														</div>
+													</div>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/cgzn/wycg/zslb/">展商列表</a>
+														</div>
+													</div>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/gp/">购票</a>
+														</div>
+													</div>
+											
+										</div>
+										<div class="sub-nav-item">
+											<div class="catalog-parent">
+												<a>我要参会</a>
+											</div>
+											
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="http://www.chinajoy.net/cdec/">CDEC</a>
+														</div>
+													</div>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="http://www.chinajoy.net/cgdc/">CGDC</a>
+														</div>
+													</div>
+											
+										</div>
+										<div class="sub-nav-item">
+											<div class="catalog-parent">
+												<a>酒店交通</a>
+											</div>
+											
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/cgzn/jdjt/rhdd/">如何到达</a>
+														</div>
+													</div>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/cgzn/jdjt/jdyd/">酒店预定</a>
+														</div>
+													</div>
+											
+										</div>
+								
+							</div></li>
+					
+       				  
+						<li><a>合作</a>
+							<div class="sub-nav">
+								
+									
+										<div class="sub-nav-item">
+											<div class="catalog-parent">
+												<a>商务合作</a>
+											</div>
+											
+												
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="/hz/swhz/cwswhb/">成为商务伙伴</a>
+															</div>
+														</div>
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="/hz/swhz/hblb/">官方合作伙伴</a>
+															</div>
+														</div>
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="/hz/swhz/jjgslb/">指定经纪公司名单</a>
+															</div>
+														</div>
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="/hz/swhz/djgslb/">指定搭建商名单</a>
+															</div>
+														</div>
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="/hz/swhz/cjlshzlb/">超级联赛合作名单</a>
+															</div>
+														</div>
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="https://chinajoy-shunwang.secure.force.com/Login&#32;">展会服务系统</a>
+															</div>
+														</div>
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="https://chinajoy-shunwang.secure.force.com/Attend/">厂商参展报名</a>
+															</div>
+														</div>
+													
+											
+										</div>
+										<div class="sub-nav-item">
+											<div class="catalog-parent">
+												<a>媒体合作</a>
+											</div>
+											
+												
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a
+																	href="https://www.chinajoy.net/member/beingPartner.html?siteID=124">成为合作媒体</a>
+															</div>
+														</div>
+													
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="/hz/mthz/hzmtlb/">合作媒体名录</a>
+															</div>
+														</div>
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="/hz/mthz/mtqy/">媒体证件权限</a>
+															</div>
+														</div>
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="/hz/mthz/mtzx/">媒体中心</a>
+															</div>
+														</div>
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="/hz/mthz/hzmtzc/">临时媒体注册</a>
+															</div>
+														</div>
+													
+													
+													
+														<div class="catalog-sub-box">
+															<div class="catalog-sub">
+																<a href="/hz/mthz/mtzlxz/">媒体资料下载</a>
+															</div>
+														</div>
+													
+											
+										</div>
+								
+							</div></li>
+					
+                    
+						<li><a href="/zx/">资讯</a></li>
+				    
+                  	
+                        <li><a href="/gp/">购票</a></li>
+                    
+					<!--<cms:catalog alias="lxwm">
+						<li><a href="${Catalog.Link}">${Catalog.Name}</a></li>
+					</cms:catalog>
+					<li><a href="https://plus.chinajoy.net/?channel=18">ChinaJoyPlus</a></li>
+					-->
+                  <!--参展报名-->
+                    
+                        <li><a href="https://chinajoy-shunwang.secure.force.com/Attend/">厂商参展报名</a></li>
+                    
+                                   <!-- 参展报名-->
+                  <!--系统导航
+                  <cms:catalog alias="xtdh">
+						<li><a>${Catalog.Name}</a>
+							<div class="sub-nav">
+								<cms:catalog level="Child">
+									<z:list>
+										<div class="sub-nav-item">
+											<div class="catalog-parent">
+												<a href="${Catalog.Link}">${Catalog.Name}</a>
+											</div>
+											<cms:catalog level="Child">
+												<z:list>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="${Catalog.Link}">${Catalog.Name}</a>
+														</div>
+													</div>
+												</z:list>
+											</cms:catalog>
+										</div>
+									</z:list>
+								</cms:catalog>
+							</div></li>
+					</cms:catalog>
+                        系统导航         -->
+				</ul>
+				<!--pc-->
+              	<!--<div class="icon-menu-nav">
+                	<a href="https://plus.chinajoy.net/?channel=12" style="margin-left: 46px;"/><font color="#fff">ChinaJoyPlus</font></a>
+                </div>-->
+				<div class="header-top-right">
+					<div class="user-logined">
+						<span class="userName nowrap" id="headerUsername">用户1358403...</span>
+						<a href="javascript:exit()">[退出]</a>
+					</div>
+					<div class="img-box-circle">
+						<a href="https://www.chinajoy.net/cjdhen/"><img
+							src="/images/header-02.png" /></a>
+					</div>
+				</div>
+			</div>
+			<!--移动端-->
+			<ul class="header-nav-xs clearfix">
+				
+					<li><a>关于</a>
+						<div class="sub-nav-xs clearfix">
+							
+								
+									<div class="sub-nav-xs-item">
+										<div class="catalog-parent">
+											<a>关于展会</a>
+										</div>
+										
+											
+												<div class="catalog-sub-box">
+													<div class="catalog-sub">
+														<a href="/gy/gyzh/zhjs/">展会介绍</a>
+													</div>
+												</div>
+												<div class="catalog-sub-box">
+													<div class="catalog-sub">
+														<a href="/gy/gyzh/wjhg/">往届回顾</a>
+													</div>
+												</div>
+										
+									</div>
+									<div class="sub-nav-xs-item">
+										<div class="catalog-parent">
+											<a>关于会议</a>
+										</div>
+										
+											
+												<div class="catalog-sub-box">
+													<div class="catalog-sub">
+														<a href="/gy/gyhy/hyjs/">会议简介</a>
+													</div>
+												</div>
+												<div class="catalog-sub-box">
+													<div class="catalog-sub">
+														<a href="/gy/gyhy/wjhg/">往届回顾</a>
+													</div>
+												</div>
+										
+									</div>
+							
+						</div></li>
+				
+				
+					<li><a>观展/参会</a> 
+							<div class="sub-nav-xs clearfix">
+								
+									
+										<div class="sub-nav-xs-item">
+											<div class="catalog-parent">
+												<a>我要参观</a>
+											</div>
+											
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/cgzn/wycg/zhrc/">展会日程</a>
+														</div>
+													</div>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/cgzn/wycg/zslb/">展商列表</a>
+														</div>
+													</div>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/gp/">购票</a>
+														</div>
+													</div>
+											
+										</div>
+										<div class="sub-nav-xs-item">
+											<div class="catalog-parent">
+												<a>我要参会</a>
+											</div>
+											
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="http://www.chinajoy.net/cdec/">CDEC</a>
+														</div>
+													</div>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="http://www.chinajoy.net/cgdc/">CGDC</a>
+														</div>
+													</div>
+											
+										</div>
+										<div class="sub-nav-xs-item">
+											<div class="catalog-parent">
+												<a>酒店交通</a>
+											</div>
+											
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/cgzn/jdjt/rhdd/">如何到达</a>
+														</div>
+													</div>
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/cgzn/jdjt/jdyd/">酒店预定</a>
+														</div>
+													</div>
+											
+										</div>
+								
+							</div>
+						</li>
+				
+				
+					<li><a href="/zx/" >资讯</a></li>
+				
+				
+					<li><a>合作</a>
+						<div class="sub-nav-xs clearfix">
+							
+								
+									<div class="sub-nav-xs-item">
+										<div class="catalog-parent">
+											<a>商务合作</a>
+										</div>
+										
+											
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/hz/swhz/cwswhb/">成为商务伙伴</a>
+														</div>
+													</div>
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/hz/swhz/hblb/">官方合作伙伴</a>
+														</div>
+													</div>
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/hz/swhz/jjgslb/">指定经纪公司名单</a>
+														</div>
+													</div>
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/hz/swhz/djgslb/">指定搭建商名单</a>
+														</div>
+													</div>
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/hz/swhz/cjlshzlb/">超级联赛合作名单</a>
+														</div>
+													</div>
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="https://chinajoy-shunwang.secure.force.com/Login&#32;">展会服务系统</a>
+														</div>
+													</div>
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="https://chinajoy-shunwang.secure.force.com/Attend/">厂商参展报名</a>
+														</div>
+													</div>
+												
+										
+									</div>
+									<div class="sub-nav-xs-item">
+										<div class="catalog-parent">
+											<a>媒体合作</a>
+										</div>
+										
+											
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a
+																	href="https://www.chinajoy.net/member/beingPartner.html?siteID=124">成为合作媒体</a>
+														</div>
+													</div>
+												
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/hz/mthz/hzmtlb/">合作媒体名录</a>
+														</div>
+													</div>
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/hz/mthz/mtqy/">媒体证件权限</a>
+														</div>
+													</div>
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/hz/mthz/mtzx/">媒体中心</a>
+														</div>
+													</div>
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/hz/mthz/hzmtzc/">临时媒体注册</a>
+														</div>
+													</div>
+												
+												
+												
+													<div class="catalog-sub-box">
+														<div class="catalog-sub">
+															<a href="/hz/mthz/mtzlxz/">媒体资料下载</a>
+														</div>
+													</div>
+												
+										
+									</div>
+							
+						</div></li>
+				
+				
+					<li><a href="/gp/">购票</a></li>
+				
+				
+					<li><a>系统导航</a> 
+							<div class="sub-nav-xs clearfix">
+								
+									
+										<div class="sub-nav-xs-item">
+											<div class="catalog-parent">
+												<a href="https://plus.chinajoy.net/?channel=12">ChinaJoyPlus</a>
+											</div>
+											
+												
+											
+										</div>
+								
+							</div>
+						</li>
+				
+			</ul>
+			<!--/移动端-->
+		</div>
+	</div>
+</div>
+<script>
+	$(function() {
+		$.ajax({
+			url : frontAppContext + "front/memberInfo/getMemberInfo",
+			type : 'get',
+			data : {'siteID':siteID},
+			xhrFields : {
+				withCredentials : true
+			},
+	        success:function(res){
+	          if (res.status === 1) {
+				  let username =res.data.memberUserName;
+	              $('#headerClass').addClass('is-logined-header');
+	              // $('#headerUsername').html("<a href='/member/memberInfo.html?siteID=124'>"+username+"</a>");
+	              $('#headerUsername').html('<a onclick="toPersonCenter()">'+username+'</a>');
+	          }
+	        }
+		})
+	})
+	function exit() {
+		$.ajax({
+			url : frontAppContext + "front/memberInfo/logout",
+			type : 'GET',
+			dataType : 'jsonp',
+			crossDomain : true,
+			xhrFields : {
+				withCredentials : true
+			},
+			jsonp : "callback", //指定一个查询参数名称来覆盖默认的 jsonp 回调参数名 callback
+			jsonpCallback : "handleLogout"//设置回调函数名
+		})
+	}
+    function toPersonCenter() {
+          $.ajax({
+              url : frontAppContext + "front/kedou/personCenter",
+              type : 'GET',
+              data:{'siteID':siteID},
+              crossDomain : true,
+              xhrFields : {
+                  withCredentials : true
+              },
+              success(res){
+           		if(res.status===1){
+                	window.open('https://sso.kedou.com/ticketCreate.do?identityId='+res.data+'&siteId=chinajoy_OS&jumpUrl=https://i.kedou.com/index','_blank')
+                }
+              }
+          })
+      }
+	function handleLogout(res) {
+		if (res.status === 1) {
+			$('#headerClass').removeClass('is-logined-header');
+			modalDialogueTip.tips("退出成功");
+			setTimeout(function() {
+				window.location.href="https://www.chinajoy.net/"
+			}, 1500)
+		}
+	}
+</script>
+    <!--/头部-->
+
+    <!--banner-->
+    
+<!--banner-->
+      <div class="container list-banner-box">
+      
+      	
+        <a href="http://www.chinajoy.net/zx/" target="_blank"><img src="/upload/resources/image/2020/04/15/38901_1200x146c.jpg" /></a>
+      
+      </div>
+<!--/banner-->
+
+    <!--/banner-->
+
+    <!--主体部分-->
+    <div class="container exhibitors-con">
+      <div class="color-box lightBlue-border">
+        <div class="head lightBlue-bg clearfloat">
+          <div class="col-xs-8 search-box">
+            <span class="title">2023年参展商列表</span>
+            <input class="search-input" type="text" id="keyword" /><a class="search-item" style="color: white;" onclick="doSearch()">搜索</a>
+          </div>
+          <!-- <div class="col-xs-4 download-box">
+            <a class="download-btn" style="line-height:34px;text-align:center;" href="${FrontAppContext}front/exhibition/download?siteID=${Site.ID}">下载展商名录</a>
+          </div> -->
+        </div>
+        <div class="con">
+          <!-- <div class="tab-head">
+            <ul class="clearfloat" id="exhibitionTypeList">
+              <li class="lightBlue-font active">N1馆</li>
+              <li class="lightBlue-font">N2馆</li>
+              <li><a class="lightBlue-font">N3馆</a></li>
+              <li><a class="lightBlue-font">N4馆</a></li>
+              <li><a class="lightBlue-font">N5馆</a></li>
+              <li><a class="lightBlue-font">E1馆</a></li>
+              <li><a class="lightBlue-font">E2馆</a></li>
+              <li><a class="lightBlue-font">E3馆</a></li>
+              <li><a class="lightBlue-font">E4馆</a></li>
+              <li><a class="lightBlue-font">E5馆</a></li>
+              <li><a class="lightBlue-font">E6馆</a></li>
+            </ul>
+          </div> -->
+          <div class="tab-con clearfloat">
+            <div class="toc">
+              <ol class="clearfloat" id="exhibitionList">
+                <li>
+                  <div class="li-inner">
+                    <a href="javascript:;">
+                         <!--
+                      <span class="chapter">Bechtel Corporation</span>
+                      <span class="toc-page">E-309</span>
+-->
+                    </a>
+                  </div>
+                </li>
+              </ol>
+            </div>
+
+            <!-- 分页 -->
+            <div class="pageBar" id="pageBar">
+              <a href="#">上一页</a>
+              <a href="#" class="active lightBlue-bg">1</a>
+              <a href="#" class="disabled">2</a>
+              <a href="#">下一页</a>
+              <span>共16条信息/2页</span>
+              <input type="text" value="1">
+              <a href="#">跳转</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/主体部分-->
+
+    <!-- 底部 -->
+    
+ <!-- 底部 -->
+    <div id="footer">
+      <!--赞助商-->
+      <iframe id="blockRight" name="my_iframe" οnlοad="this.height=my_iframe.document.body.scrollHeight" scrolling="no" frameborder="0" style="width: 100%; height:152px;">
+		 <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        </head>
+		</iframe>
+      <!--赞助商-->
+      <div class="footer blue-layout-bg">
+        <div class="container clearfix">
+			<div class="footer-left">
+				<div>中国国际数码互动娱乐展览会 <a href="https://beian.miit.gov.cn/">沪ICP备16012922号-12</a>&nbsp;&nbsp;<span class="phone">联系邮箱：cj.connect@howellexpo.net</span></div>
+				<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1259882122'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/stat.php%3Fid%3D1259882122%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+			</div>
+          	<div class="footer-right">
+            	<img src="/images/logo-bottom.png" />
+          	</div>
+        </div>
+      </div>
+    </div>
+    <!-- /底部 -->
+
+ <script type="text/javascript">
+  	$(function(){
+  		$("#blockRight").attr("src",GWSiteURL+"include/template/footerBlock.shtml")
+  	})
+  </script>   
+
+    <!-- /底部 -->
+  </div>
+
+  <!--侧边栏-->
+  
+<!--侧边栏-->
+<div class="sideBar">
+	<div class="side-list side-menu">
+		<a href="javascript:;">
+			<img src="/images/icon-side-05.png" />
+		</a>
+	</div>
+	<div class="sideBar-con">
+		<div class="side-list">
+			<a id="login_btn"> <img src="/images/icon-side-01.png" />
+				<div>
+					登录|注册
+				</div>
+			</a>
+		</div>
+		<div class="side-list side-list-schedule">
+			<a href="#"> <img src="/images/icon-side-02.png" />
+				<div>日程查询</div>
+			</a>
+			<div class="side-position-box">
+				<div class="schedule-box" id="scheduleInfo"></div>
+			</div>
+		</div>
+		<div class="side-list side-list-concat">
+      <a href="#">
+        <img src="/images/icon-side-03.png" />
+        <div>在线咨询</div>
+      </a>
+      <div class="side-position-box side-position-box-2">
+        <div class="schedule-box concat-box">
+          <div class="concat-list concat-list-top">
+          	<div>
+	            <div class="left-icon">
+	              <img src="/images/icon-side-08.png" />
+	            </div>
+	            <div class="right-info">
+	              <div class="label-name">联系销售</div>
+	              <div class="info-text"><span class="red">010-87538660</span> 转 8188</div>
+                <div class="info-text">在线时间 10：00-17：00（周一至周五）</div>
+                <ul class="service-list clearfloat">
+                </ul>
+	            </div>
+          	</div>
+          	<!--div class="clearfloat" style="margin-top:15px;">
+	            <div class="left-icon">
+	              <img src="${prefix('images/icon-side-11.png')}" />
+	            </div>
+				<div class="right-info">
+	            <div class="label-name">人工客服</div>
+                  <a href="http://webcall.shunwang.com/chat/chatwin3.aspx?settings=mw7m6mwN0mm0666mz3Amm0666mz3Amm06677z3A66mmPP&nr=-1" target="_blank"><img style="margin-top: 9px;" src="${prefix('images/icon-side-09.png')}" /></a>
+	            </div-->
+          	</div>
+          </div>
+          <div class="concat-list concat-list-bottom">
+            <div class="item">
+              <a id="feedback_btn">
+                <img src="/images/icon-side-10.png" />
+                <span>建议反馈</span>
+              </a>
+            </div>
+          </div>
+				</div>
+			</div>
+		</div>
+		<div class="side-list">
+			
+				<a href="/faq/"> <img src="/images/icon-side-04.png" />
+				</a>
+			
+		</div>
+		<div class="side-list toTop">
+			<a href="javascript:;">TOP</a>
+		</div>
+	</div>
+</div>
+<!--/侧边栏-->
+<script>
+  $(function () {
+    //登录注册跳转
+    $('#login_btn').attr('href', siteURL+'member/login.html?siteID='+siteID+'&callback='+window.location.href)
+    $('#register_btn').attr('href', siteURL+'member/register.html?siteID='+siteID+'&callback='+window.location.href)
+    $('#feedback_btn').attr('href', siteURL+'member/adviceFeedback.html?siteID='+siteID+'&callback='+window.location.href)
+    getCustomerServiceList()
+  });
+  function getCustomerServiceList(){
+	  $.ajax({
+			url : frontAppContext + "front/customerService",
+			type :  "GET",
+			data :{pageSize:7,pageIndex:0},
+			xhrFields : {
+				withCredentials : true
+			},
+	        success : function(res) {
+				if (res.data.length>0) {
+					let dt = res.data;
+			      let newItem=''
+			      for(let i=0;i<dt.length;i++){
+			    	  newItem +='<li> <a href="http://wpa.qq.com/msgrd?v=3&uin='+dt[i].QQ+'&site=qq&menu=yes" target="_blank">'
+			    	  if(dt[i].isOnline==="Y"){
+			    		  newItem+='<img src="/images/qq-online.png" />'
+			    	  }else{
+			    		  newItem+='<img src="/images/qq-1.png" />'
+			    	  }
+			    	  newItem +='<p style="text-align:center;">'+dt[i].name+'</p> </a> </li>';
+			      }
+			      $(".service-list").html(newItem)
+				}
+	        }
+		});
+  }
+</script>
+<script>
+	$(function() {
+		scheduleInit();
+		scheduleIsCollection();
+	})
+
+	function scheduleInit() {
+		$.ajax({
+			url : frontAppContext + 'front/cj/schedule',
+			type : 'GET',
+			dataType: 'jsonp',
+			async: false,
+			xhrFields : {
+				withCredentials : true
+			},
+			contentType : false,
+			processData : false,
+			jsonp : "callback", //指定一个查询参数名称来覆盖默认的 jsonp 回调参数名 callback
+	        jsonpCallback: "schedule"//设置回调函数名
+		})
+	}
+
+	function schedule(res){
+		if (res) {
+			var str = '';
+			$.each(res, function(index, item) {
+				var startTime = new Date(item.startTime);
+				var month = startTime.toDateString().split(" ")[1];
+				var day = startTime.toDateString().split(" ")[2];
+				str += '<div class="schedule-list">';
+				str += '<div class="schedule-date"><div class="day">'+day+'</div><div class="month">'+month+'</div></div>';
+				str += '<div class="schedule-right"><div class="title">'+item.title+'</div><div class="time">'+ item.address+'</div></div>';
+				str += '<div class="collect-box" onClick="collect(' + item.ID + ', 124, this)"><input type="hidden" value="' + item.ID + '" id="normal_' + item.ID + '" /><img src="/images/icon-side-06.png" /></div></div>';
+			});
+			$("#scheduleInfo").html("").append($(str))
+		}
+	}
+
+	function scheduleIsCollection() {
+		$.ajax({
+			url : frontAppContext + "front/collection",
+			type :  "GET",
+			data : {siteID : siteID, type : "normal"},
+			dataType: 'jsonp',
+			xhrFields : {
+				withCredentials : true
+			},
+			async: false,
+			jsonp : "callback", //指定一个查询参数名称来覆盖默认的 jsonp 回调参数名 callback
+	        jsonpCallback: "success", //设置回调函数名
+	        success : function(res) {
+				if (res.data != null) {
+					$.each(JSON.parse(res.data), function(index, item) {
+						var aid = item.aid;
+						var src = $("#normal_" + aid).parent().children("img").attr("src");
+						$("#normal_" + aid).parent().children("img").attr("src", src.replace(/icon-side-06/g, "icon-side-07"));
+					});
+				}
+	        }
+		});
+	}
+
+	function collect(aid, siteID, obj){ // 收藏侧边栏日程
+		if ($(obj).children("img").attr("src").indexOf("icon-side-07") == -1) { // 说明还未收藏
+				$.ajax({
+					url : frontAppContext + "front/collection/create",
+					type : "Get",
+					data : {aid:aid, siteID:siteID, type: "normal"},
+					dataType: 'jsonp',
+					xhrFields : {
+						withCredentials : true
+					},
+					jsonp : "callback", //指定一个查询参数名称来覆盖默认的 jsonp 回调参数名 callback
+			        jsonpCallback: "success", //设置回调函数名
+			        success : function(res) {
+						if (res.status == -2) { // 说明用户 未登录
+							Dialog.alert(res.message, function() {
+								window.localStorage.setItem("targetUrl", location.href)
+								$('#login_btn').append("<span></span>");
+								$('#login_btn span').click();
+							});
+						}  else if (res.status == 1) { // 说明收藏成功
+							var src = $(obj).children("img").attr("src");
+							$(obj).children("img").attr("src", src.replace(/icon-side-06/g, "icon-side-07"));
+						}
+			        }
+				});
+		} else { // 取消收藏
+			$.ajax({
+				url : frontAppContext + "front/collection/del",
+				type : "Get",
+				data: {'aid':aid, 'siteID':siteID, 'type': "normal"},
+				dataType: 'jsonp',
+				xhrFields : {
+					withCredentials : true
+				},
+				jsonp : "callback", //指定一个查询参数名称来覆盖默认的 jsonp 回调参数名 callback
+				jsonpCallback: "success", //设置回调函数名
+		        success : function(res) {
+					if (res.status == -2) { // 说明用户 未登录
+						Dialog.alert(res.message, function() {
+							window.localStorage.setItem("targetUrl", location.href)
+							$('#login_btn').append("<span></span>");
+							$('#login_btn span').click();
+						});
+					}  else if (res.status == 1) { // 说明取消收藏成功
+						var src = $(obj).children("img").attr("src");
+						$(obj).children("img").attr("src", src.replace(/icon-side-07/g, "icon-side-06"));
+					}
+		        }
+			});
+		}
+	}
+</script>
+
+  <!--/侧边栏-->
+
+  <script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+  <script src="/js/siteCommon.js"></script>
+  <script>
+    $(function(){
+      getExhibitionList()
+    })
+      var pageData={
+          pageSize:20,
+          pageIndex:1
+    }
+    var searchParam={
+      name:''
+    }
+    function getExhibitionList(){
+      let dc=Object.assign({},{'pageIndex':pageData.pageIndex-1,'pageSize':pageData.pageSize,'name':searchParam.name})
+      $.ajax({
+        type: 'GET',
+          url: frontAppContext + 'front/exhibition',
+          dataType: 'json',
+          data:dc,
+          xhrFields: {
+  	      withCredentials: true
+  	     },
+          success: function (response) {
+            let exhibitions = ""
+             for (let i = 0; i < response.data.length; i++) {
+              exhibitions += '<li><div class="li-inner">'
+                     +'<span class="chapter">'+response.data[i].name+'</span>'
+                     +'<span class="toc-page">'+response.data[i].address+'</span></div></li>'
+               }
+            $('#exhibitionList').html(exhibitions)
+
+            //处理分页
+            let str=''
+            str +='<a onclick="prevPage()">上一页</a>'
+            //let totalPage=Math.ceil(response.total/pageData.pageSize)
+            let totalPage=response.totalPage
+            pageData.totalPage=totalPage
+            let pageIndex=pageData.pageIndex-1
+            if(totalPage<=5){
+              for(let i=1;i<=totalPage;i++){
+                if(i===(pageIndex+1)){
+                  str +='<a class="disabled">'+i+'</a>'
+                  continue
+                }
+                str+= '<a  class="active lightBlue-bg" onclick="toPage(this)">'+i+'</a>'
+              }
+            }else{
+                if((pageIndex+1)<=5){
+                for(let i=1;i<6;i++){
+                  if(i===(pageIndex+1)){
+                    str +='<a class="disabled">'+i+'</a>'
+                    continue
+                  }
+                  str+= '<a  class="active lightBlue-bg" onclick="toPage(this)">'+i+'</a>'
+                }
+              }else{
+                if((pageIndex+1+4)>totalPage){
+                  for(let i=((pageIndex+1)-4);i<=totalPage;i++){
+                      if(i===(pageIndex+1)){
+                        str +='<a class="disabled">'+i+'</a>'
+                        continue
+                      }
+                      str+= '<a  class="active lightBlue-bg" toPage>'+i+'</a>'
+                    }
+                }else{
+                  for(let i=((pageIndex+1)-4);i<=((pageIndex+1)+4);i++){
+                    if(i===(pageIndex+1)){
+                      str +='<a class="disabled">'+i+'</a>'
+                      continue
+                    }
+                    str+= '<a  class="active lightBlue-bg" toPage>'+i+'</a>'
+                  }
+                }
+              }
+            }
+            
+              str +='<a onclick="nextPage()">下一页</a>'+
+                    '<span>共'+(totalPage)+'页</span><span>'+
+                    '<input type="text" value="" id="pageInput"/>'+
+                    '<a onclick="jumpPage()">跳转</a></span>'
+  	       $("#pageBar").html(str)
+          }
+      })
+    }
+    function doSearch(){
+      searchParam.name=$("#keyword").val()
+      pageData.pageIndex=1
+      getExhibitionList()
+    }
+    $("#keyword").on('keypress',function(event){
+    	if(event.keyCode == 13){
+    		doSearch()
+      }
+   	 });
+    // 分页相关
+    function toPage(obj){
+  		let pageIndex=obj.innerHTML
+  		pageData.pageIndex=parseInt(pageIndex)
+      getExhibitionList()
+  	}
+  	function nextPage(){
+  		if((pageData.pageIndex+1)>(pageData.totalPage)){
+  			Dialog.tips("已经是最后一页！")
+  			return
+  		}
+  		pageData.pageIndex += 1
+      getExhibitionList()
+  	}
+  	function prevPage(){
+  		if((pageData.pageIndex-1)<=0){
+  			Dialog.tips("已经是首页！")
+  			return
+  		}
+  		pageData.pageIndex -= 1
+      getExhibitionList()
+  	}
+  	function jumpPage(){
+  		let pageIndex=$("#pageInput").val()
+  		if(!isRealNum(pageIndex)){
+  			Dialog.tips("请输入正确的页数！")
+  			return
+  		}
+  		if((pageIndex-1)<0||(pageIndex)>pageData.totalPage){
+  			Dialog.tips("请输入正确的页数！")
+  			return
+  		}
+  		pageData.pageIndex = pageIndex
+      getExhibitionList()
+  	}
+  	function isRealNum(val){
+  	    // isNaN()函数 把空串 空格 以及NUll 按照0来处理 所以先去除
+  	    if(val === "" || val ==null){
+  	        return false;
+  	    }
+  	    if(!isNaN(val)){
+  	        return true;
+  	    }else{
+  	        return false;
+  	    }
+  	}
+  </script>
+
+<script src="https://www.chinajoy.net/chinajoy/stat/front/stat.js" type="text/javascript"></script>
+<script>
+if(window._zcms_stat)_zcms_stat("SiteID=124&CatalogInnerCode=001340000001000003&Type=null&Dest=https://www.chinajoy.net/chinajoy/front/stat/dealer");
+</script>
+
+<!-- App=ZCMS(ZCMS内容管理系统) 3.1.15,CostTime=10,PublishDate=2023-07-10 10:39:07 -->
+</body>
+
+</html>
